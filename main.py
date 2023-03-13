@@ -89,6 +89,7 @@ async def posting_to_facebook():
     n = 1
     for group in randonmized_group_list:
         try:
+            f"going to the {n} site"
             random_message = random.choice(message)
             browser.get(group)
             time.sleep(3)

@@ -77,6 +77,7 @@ def autoposter(cookies):
     n = 1
     for group in groups_links_list:
         try:
+            f"going to the {n} site"
             browser.get(group)
             time.sleep(3)
             browser.find_element(By.XPATH,'//span[text()="Write something..."]').click()
