@@ -129,6 +129,7 @@ env.bak/
 venv.bak/
 *.pem
 *.pub
+tripr2
 
 
 # Spyder project settings
