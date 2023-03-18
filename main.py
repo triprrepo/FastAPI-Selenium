@@ -64,8 +64,8 @@ async def posting_to_facebook():
 
     # Set up text content to post
     message = [
-        "Veja no Tripr centenas de excursões de diversas agências, saindo de SP em Março e outros meses! https://tripr.com.br", \
-        "Encontre mais de 100 viagens de diversas agências, saindo de SP & Região em Março e outros meses no Tripr! https://tripr.com.br"
+        "Veja no Tripr centenas de excursões de diversas agências, saindo de SP em Março e outros meses! https://tripr.com.br/search_trips", \
+        "Encontre mais de 100 viagens de diversas agências, saindo de SP & Região em Março e outros meses no Tripr! https://tripr.com.br/search_trips"
         ]
     
     #pick one of the two phrases above

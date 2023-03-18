@@ -53,7 +53,7 @@ def loading_cookies():
     options.add_argument('--no-sandbox')     
     options.add_argument('--disable-dev-shm-usage')   
     options.add_argument("--disable-setuid-sandbox")
-    browser = uc.Chrome(version_main=109, options = options)
+    browser = uc.Chrome(version_main=100, options = options)
     # browser = uc.Chrome(version_main=109)
 
 
@@ -68,6 +68,7 @@ def loading_cookies():
     print("loaded")
 
 
+    ## command only to commit
     # # Adding the Facebook cookies to the new browser instance
     # n = 0
     # for cookie in cookies:
@@ -91,11 +92,11 @@ def adding_cookies_browser(cookies):
     # Adding the Facebook cookies to the new browser instance
     options = uc.ChromeOptions()
     # options.headless = True
-    # options.add_argument( '--headless' )
-    options.add_argument('--no-sandbox') 
+    options.add_argument('--headless' )
+    options.add_argument('--no-sandbox')     
     options.add_argument('--disable-dev-shm-usage')   
     options.add_argument("--disable-setuid-sandbox")
-    browser = uc.Chrome(version_main=109, options = options)
+    browser = uc.Chrome(version_main=100, options = options)
     browser.get("https://www.facebook.com")
     n = 0
     for cookie in cookies:
