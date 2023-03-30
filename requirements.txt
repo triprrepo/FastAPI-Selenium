@@ -23,4 +23,4 @@ facebook_scraper==0.2.59
 fastapi==0.92.0
 pandas==1.5.2
 selenium==4.8.2
-undetected_chromedriver==3.2.1
+undetected_chromedriver==3.1.0
